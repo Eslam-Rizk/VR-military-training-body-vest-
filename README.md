@@ -1,5 +1,5 @@
 # Project overview
-This project can be used to provide realistic experience while playing video games or even provide realistic training to military personnel.The idea is to connect the vest to a video game through usb port using **Esp8266 NodeMCU** board and receive hits and injuries data from the game and make it felt using vibration motors.
+This project can be used to provide realistic experience while playing video games or even provide realistic training to military personnel.The idea is to connect the vest to a video game through usb port using **Esp8266 NodeMCU** board and receive hits and injuries data from the game and make it felt using sounds, lights and vibration motors.
 
 # Components
 * 2 x Esp8266 NodeMcu (transmitter & receiver).
@@ -24,7 +24,7 @@ This project can be used to provide realistic experience while playing video gam
 
 # Steps
 * At first we program the 2 NodeMcu and the arduino mega2560 using Arduino IDE and the codes above.
-* Then we design the body PCBs on **Proteus Ares** using the circuit diagram below:
+* Design the body PCBs on **Proteus Ares** using the circuit diagram below:
   
   ![ody circuit](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/body%20circuit.png)
 
@@ -33,7 +33,7 @@ This project can be used to provide realistic experience while playing video gam
   ![body pcb](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/body%20pcb.png)
   ![body pcb](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/pics/chest%20pcb.png)
   
-* Then we design the head PCB using the circuit diagram below:
+* Design the head PCB using the circuit diagram below:
   
   ![head](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/head%20circuit.png)
 
@@ -41,7 +41,7 @@ This project can be used to provide realistic experience while playing video gam
   
   ![head pcb](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/head%20pcb.png)
   
-* Then we design the alarm PCB using the circuit diagram below:
+* Design the alarm PCB using the circuit diagram below:
   
   ![alarm](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/alarm%20circuit.png)
 
@@ -50,7 +50,8 @@ This project can be used to provide realistic experience while playing video gam
   ![alarm pcb](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/alarm%20pcb.png)
   ![alarm pcb](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/pics/chest%20alarm.png)
   
-* Then we wire up the main circuit as shown below:
+* Connect one Esp8266 NodeMcu (transmitter) to computer using usb cable.
+* Then we wire up the other Esp8266 NodeMcu (receiver) to the Arduino board as shown below:
   
   ![main circuit](https://github.com/Eslam-Rizk/VR-military-training-body-vest-/blob/main/VR%20military%20training%20vest/main%20circuit.png)
 
