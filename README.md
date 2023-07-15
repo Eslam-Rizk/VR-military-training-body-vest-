@@ -5,6 +5,10 @@ This project can be used to provide realistic experience while playing video gam
 * 2 x Esp8266 NodeMcu (transmitter & receiver).
 * 1 x Arduino Mega2560.
 * 2 x 3.7v Li-ion battery in series.
+* 1 x LM7805.
+* 1 x 0.01 uf ceramic capacitor.
+* 1 x 0.1 uf radial capacitor.
+* 1 x toggle switch.
 * 7 x mini vibration motors.
 * 1 x buzzer.
 * 7 x yellow & red LEDs.
