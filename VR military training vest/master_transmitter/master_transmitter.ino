@@ -111,8 +111,3 @@ void loop() {
 
 }
 
-/*
-  test (shell/netcat):
-  --------------------
-    nc -u 192.168.esp.address 8888
-*/
